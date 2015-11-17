@@ -1,0 +1,45 @@
+Удалить стоп слова (можно обойтись tf-idf).
+n-граммы
+лематизация
+
+https://www.kaggle.com/c/predict-closed-questions-on-stack-overflow/forums/t/3083/sharing-my-solution-ranked-10
+
+http://fastml.com/predicting-closed-questions-on-stack-overflow/
+
+
+http://habrahabr.ru/company/mlclass/blog/248779/
+
+http://habrahabr.ru/post/249215/
+
+https://github.com/justmarkham/DAT8
+
+https://www.google.ru/search?q=feature+engenering&oq=feature+engenering&aqs=chrome..69i57.4838j0j7&sourceid=chrome&es_sm=93&ie=UTF-8#newwindow=1&q=feature+engineering+for+text+classification
+
+http://nlp.stanford.edu/IR-book/html/htmledition/features-for-text-1.html
+
+http://www.site.uottawa.ca/~stan/papers/1999/icml99.2_word6.pdf
+
+Убедиться, что каунтеры правильно работают.
+Убедиться, что фичи правильно считаются.
+
+Усреднять леса (?!).
+
+Удалить хтмл теги с помощью BeatifulSoup
+
+Фичи: деньги числа, daysDelta == 0, daysDelta < 1, rep < 1, owner_clicks by count == 0.5
+"
+
+
+log transform features : text_num_words, days_delta, text_length, ownerUndeletedAnswer, reputation
+			 title_num_words, title_length, owner_userid_counts
+
+
+
+Попытаться найти ликедж в данных
+
+От айдишника многое зависит!
+
+
+sign counter == 0, 1, 2, 3, 4, 5, 6, 7, 8
+url counter = 0, 1, 2, 3, 4
+
